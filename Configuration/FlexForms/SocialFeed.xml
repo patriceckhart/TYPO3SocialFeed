@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3DataStructure>
+    <sheets>
+        <sDEF>
+            <ROOT>
+                <TCEforms>
+                    <sheetTitle>Flexform Plugins</sheetTitle>
+                </TCEforms>
+                <type>array</type>
+                <el>
+                    <settings.facebookPageId>
+                        <TCEforms>
+                            <label>Facebook Page ID</label>
+                            <config>
+                                <type>input</type>
+                            </config>
+                        </TCEforms>
+                    </settings.facebookPageId>
+                    <settings.facebookAccessToken>
+                        <TCEforms>
+                            <label>Facebook Access Token</label>
+                            <config>
+                                <type>input</type>
+                            </config>
+                        </TCEforms>
+                    </settings.facebookAccessToken>
+                    <settings.facebookLimit>
+                        <TCEforms>
+                            <label>Limit</label>
+                            <config>
+                                <type>input</type>
+                            </config>
+                        </TCEforms>
+                    </settings.facebookLimit>
+                </el>
+            </ROOT>
+        </sDEF>
+    </sheets>
+</T3DataStructure>

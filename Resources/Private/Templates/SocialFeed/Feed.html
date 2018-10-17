@@ -1,0 +1,23 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+<f:layout name="Default" />
+
+<f:section name="main">
+    <div class="row">
+        <f:for each="{pageFeed}" as="feed">
+            <f:if condition="{feed.message}">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <a href="{feed.link}" target="_blank">
+                            <f:if condition="{feed.full_picture"><img class="card-img-top" src="{feed.full_picture}" alt="" /></f:if>
+                            <div class="card-body">
+                                <small><f:format.date format="d.m.Y">{feed.created_time}</f:format.date></small>
+                                <p><f:format.crop maxCharacters="300">{feed.message}</f:format.crop></p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </f:if>
+        </f:for>
+    </div>
+</f:section>
+</html>

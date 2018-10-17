@@ -1,0 +1,19 @@
+{
+    "name": "steinbauerit/sit-socialfeed",
+    "type": "typo3-cms-extension",
+    "description": "A TYPO3 plugin which displays feeds from social media platforms",
+    "authors": [
+        {
+            "name": "Patric Eckhart",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "typo3/cms-core": "^8.7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "SteinbauerIT\\SitSocialfeed\\": "Classes"
+        }
+    }
+}
